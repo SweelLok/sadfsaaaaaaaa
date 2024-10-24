@@ -1,0 +1,73 @@
+body {
+  font-family: 'Arial';
+  background-color: #f4f4f9;
+  padding: 0;
+}
+
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-size: 1.1rem;
+  margin-right: 50px; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f4f4f9 !important;
+  background-color: #555;
+  border-radius: 15px;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+.my-photo {
+  display: block;
+  margin: 20px auto;
+  width: 600px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.my-photo:hover {
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+  font-size: 3rem;
+}
+
+.phone-text:hover::after {
+  content: "+380995329221";
+  position: absolute;
+  background-color: #ffffff;
+  color: #000;
+  padding: 5px;
+  border-radius: 7px;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.my-text-1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 400px 0px 0px 0px;
+}
+
+.my-text-2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 400px 0px 0px 0px;
+  text-decoration: none;
+  color: black;
+}

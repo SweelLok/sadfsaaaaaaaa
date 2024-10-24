@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/menu_style.css') }}">
+  <link rel="icon" href="../static/photo/oderman.jpg">
+  <title>Menu</title>
+</head>
+<body>
+  {% extends 'index.html' %}
+{% block content %}
+<table>
+    <tr>
+      {% for title in titles %}
+        <th>{{ title.title1 }}</th>
+        <th>{{ title.title2 }}</th>
+        <th>{{ title.title3 }}</th>
+      {% endfor %}
+    </tr>
+    {% for pizza in pizzas %}
+      <tr>
+        <td>{{ pizza.name }}</td>
+        <td>{{ pizza.ingrediens }}</td>
+        <td>{{ pizza.price }}</td>
+      </tr>
+    {% endfor %}
+</table>
+{% endblock content %}
+</body>
+</html>

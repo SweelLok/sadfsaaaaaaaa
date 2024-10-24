@@ -1,0 +1,52 @@
+/* Общие стили для тела документа */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Светлый фон */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Стили для таблицы */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Убираем двойные границы */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+th, td {
+  padding: 15px; /* Отступы внутри ячеек */
+  text-align: left; /* Выравнивание текста */
+  border-bottom: 1px solid #ccc; /* Нижняя граница ячеек */
+}
+
+/* Стили для заголовков */
+th {
+  background-color: #8ed593; /* Синий фон для заголовков */
+  color: white; /* Белый текст */
+}
+
+/* Стили для ячеек с данными */
+td {
+  background-color: #ffffff; /* Белый фон для данных */
+}
+
+/* Эффект при наведении на строки таблицы */
+tr:hover td {
+  background-color: #f1f1f1; /* Светло-серый фон при наведении */
+}
+
+/* Стили для кнопки */
+.button {
+  display: inline-block; /* Отображение в строчном блоке */
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  background-color: #28a745; /* Зеленый фон */
+  color: white; /* Белый текст */
+  text-decoration: none; /* Убираем подчеркивание */
+  border-radius: 5px; /* Закругленные углы */
+  transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+/* Эффект при наведении на кнопку */
+.button:hover {
+  background-color: #218838; /* Темно-зеленый фон при наведении */
+}
