@@ -17,8 +17,8 @@
         <th>{{ title.title2 }}</th>
         <th>{{ title.title3 }}</th>
       {% endfor %}
-    </tr>
-    {% for pizza in pizzas %}
+    </tr>https://github.com/SweelLok/Flask.git
+    {% for pizza in pizzas|sort(attribute='name')|sort(attribute='price') %}
       <tr>
         <td>{{ pizza.name }}</td>
         <td>{{ pizza.ingrediens }}</td>
